@@ -1,0 +1,101 @@
+.svetafor {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100px;
+  height: 300px;
+  background-color: black;
+  padding: 20px;
+  margin: auto;
+}
+.svetafor .green {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border-radius: 50%;
+  animation-name: greenn;
+  animation: greenn 12s linear 0s 3 normal forwards;
+}
+
+@keyframes greenn {
+  0% {
+    margin-top: 0px;
+    background-color: red;
+  }
+  41% {
+    margin-top: 0px;
+    background-color: red;
+  }
+  42% {
+    margin-top: 105px;
+    background-color: black;
+  }
+  43% {
+    margin-top: 105px;
+    background-color: yellow;
+  }
+  59% {
+    margin-top: 105px;
+    background-color: yellow;
+  }
+  60% {
+    margin-top: 105px;
+    background-color: black;
+  }
+  61% {
+    margin-top: 210px;
+    background-color: black;
+  }
+  62% {
+    margin-top: 210px;
+    background-color: rgb(28, 255, 28);
+  }
+  100% {
+    margin-top: 210px;
+    background-color: rgb(28, 255, 28);
+  }
+}
+.cls63amg img {
+  width: 700px;
+  height: 250px;
+  margin-left: 70%;
+  margin-top: 100px;
+  animation: car 12s linear 0s 3 normal backwards;
+}
+@keyframes car {
+  0% {
+    margin-left: 60%;
+  }
+  41% {
+    margin-left: 60%;
+  }
+  62% {
+    margin-left: 58%;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+.juniper img {
+  width: 400px;
+  height: 400px;
+  left: 0;
+  margin-top: -800px;
+}
+.gai img {
+  width: 100px;
+  height: 400px;
+  animation: gai 12s linear 0s 3 normal backwards;
+}
+@keyframes gai {
+  0% {
+    margin-left: 0px;
+  }
+  62% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 200px;
+    margin-bottom: 200px;
+  }
+}
